@@ -9,7 +9,6 @@ int change_two(int k)
 	return(l*10+i);
 }
 
-
 int change_digits(int num)
 {
 	int k=num,count=0,k1=0;
@@ -39,9 +38,6 @@ int change_digits(int num)
 	return proc;
 }
 	
-
-
-
 int main()
 {
 	int num=4865791;
