@@ -23,8 +23,9 @@ int sumSubsets(int a[],int size, int k,int value)
 int main()
 {
 
-	int a[7]={15,4,17,8,2,10,3};
-	if(sumSubsets(a,7,12,3))
+//	int a[7]={15,4,17,8,2,10,3};
+	int a[5]={1,4,5,7,8};
+	if(sumSubsets(a,5,12,3))
 		printf("\n Subset is present \n");
 	else
 		printf("\n Subset is not present \n");
