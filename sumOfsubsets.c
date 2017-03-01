@@ -4,7 +4,7 @@
 int sumSubsets(int a[],int size, int k,int value)
 {
 	int val1,val2;
-	if (k==0 && value==0)
+	if ((k==0 && value==0) || size == 0)
 		return 1;
 
 	if (k<0 || value <0|| size <0)
