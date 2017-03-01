@@ -2,7 +2,7 @@
 #include<stdlib.h>
 void ways(int a[],int value,int size,int no[])
 {
-	if (size <-1|| value <0)
+	if (size <= -1|| value <0)
 		return ;
 	if (value==0)
 	{	
